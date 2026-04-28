@@ -1,5 +1,5 @@
 {
-  "name": "my-next-app",
+  "name": "cybercode",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,6 +17,9 @@
     "@opennextjs/cloudflare": "^1.19.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "drizzle-orm": "^0.45.2",
+    "better-auth": "^1.6.2",
+    "jose": "^6.2.2",
     "cmdk": "^1.1.1",
     "date-fns": "^4.1.0",
     "embla-carousel-react": "^8.6.0",
@@ -37,11 +40,13 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20.19.39",
     "@types/react": "^19.1.5",
     "@types/react-dom": "^19.1.5",
     "eslint": "^9",
+    "drizzle-kit": "^0.31.10",
     "eslint-config-next": "15.4.6",
     "tailwindcss": "^4",
     "typescript": "^5.7.4",
